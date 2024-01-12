@@ -1,0 +1,304 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#top-nav{
+    background-color: #daac00 !important;
+    padding: 10px 4% ;
+} 
+
+.nav-item{
+    color: white;
+    font-weight: 500;
+    font-size:15px;
+    margin: 0 10px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+
+#top-nav img{
+    width: 170px;
+}
+
+#search-box {
+    background-color: #fcc302;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+    box-shadow: 5px 10px 11px #00000021;
+    padding: 0 auto;
+}
+
+#search-box::placeholder{
+    color: white;
+}
+
+#search-button{
+    position: relative;
+    right: 10px;
+    border: 0px;
+    border-radius: 0;
+    background-color: #00bec9;
+    color: white;
+    height: 36px;
+}
+
+
+
+@media only screen and (max-width:990px) {
+    #search-box{
+        margin-bottom: 20px;
+
+    }
+    #top-nav img{
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    #top-nav img{
+        width: 130px;
+    }
+}
+
+/* banner  */
+
+#banner{
+    background-color: #fcc302;
+    padding: 40px;
+}
+
+#banner-text h1{
+    color: white;
+    font-size: 70px;
+}
+
+#banner-text p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.btn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.btn2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px; 
+    margin-bottom: 50px;
+}
+
+
+@media only screen and (max-width:1000px) {
+    #banner-text h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #banner-text h1{
+        font-size: 40px;
+    }
+    #banner-img img{
+        width: 250px;
+    }
+    #banner-text p{
+
+    font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    #banner-text h1{
+        font-size: 30px;
+    }
+    .button-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .btn1{
+    margin-bottom: 10px;
+    
+    }
+    .btn2{
+    margin-left: 0px;
+    
+    }
+}
+
+/* service center  */
+
+.service-container{
+    padding: 50px;
+}
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+}
+
+.service-img{
+    margin-top: 20px;
+}
+
+/* counter section  */
+
+.counter-container{
+    background-color: #fcc302;
+    padding: 100px;
+    margin-top: 10px;
+}
+
+.counter-container img{
+    margin-bottom: 20px;
+    width: 50px;
+}
+
+.counter-container h3{
+
+    font-size: 25px;
+}
+
+@media only screen and (max-width:768px) {
+
+.counter-container{
+    padding:0;
+    padding-top: 50px;
+
+}
+
+
+.counter-container h3{
+  font-size: 20px;
+      margin-bottom: 50px;
+}
+}
+
+
+/* blog section  */
+
+.blog{
+    margin: 50px;
+}
+
+.blog-heading-text{
+    padding-bottom: 50px;
+}
+
+.blog-heading-text h1{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.blog-heading-text p{
+    font-size: 20px;
+}
+
+.post-card{
+    margin: 10px;
+    border: 1px solid rgb(236, 229, 229);
+    padding: 0px;
+}
+
+.post-card h4{
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.date{
+    color: #00bec9;
+}
+
+.post-card a{
+    text-decoration: none;
+    color: rgb(70, 144, 176);
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media only screen and (max-width:768px) {
+
+    .post-card{
+        text-align: center;
+    }
+
+    .blog{
+    margin: 20px;
+}
+}
+
+
+/* footer section  */
+ .footer{
+    background-color: #343434;
+    padding: 70px;
+ }
+
+ .footer a{
+    color: white;
+ }
+
+ .footer h4{
+    margin-bottom: 15px;
+ }
+
+ .footer input{
+    position: relative;
+    right: -7px;
+    background-color: #fcc303;
+    color: white;
+    border: 0;
+    height: 36px;
+    width: 70%;
+    padding: 0px;
+    margin-top: 1px;
+
+ }
+
+ .footer button{
+    border: 0px;
+    border-radius: 0;
+    background-color: #00bec9;
+    color: white;
+    height: 36px;
+    width: 60px;
+    z-index: 100;
+ }
+
+ .social-icon{
+    font-size: 25px;
+    margin-left: 7px;
+ }
+
+ @media only screen and (max-width:768px) {
+    .footer{
+        padding: 40px;
+    }
+    .social-icon{
+        font-size: 20px;
+    }
+
+ }
+
+ @media only screen and (max-width:460px) {
+        .footer{
+        padding: 10px;
+    }
+}
+
+ 
